@@ -7,10 +7,11 @@ import java.util.Scanner;
 
 public class task2 {
     public static void main(String[] args) {
-        System.out.print("Input Name:");
         Scanner iScanner = new Scanner(System.in);
+        System.out.printf("Name: ");
         String name = iScanner.nextLine();
         name = "Привет, " + name;
         System.out.println(name);
+        iScanner.close();
     }
 }
