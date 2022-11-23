@@ -21,6 +21,6 @@ public class task3 {
         if(nowTime >= 12 && nowTime < 18){System.out.printf("Доброе день, %s", name);}
         if(nowTime >= 18 && nowTime < 23){System.out.printf("Доброе вечер, %s", name);}
         if(nowTime >= 23 || nowTime <5){
-            System.out.printf("Доброе ночь, %s", name);iScanner.close();}
+            System.out.printf("Добрае ночь, %s", name);iScanner.close();}
     }
 }
