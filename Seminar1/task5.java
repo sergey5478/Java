@@ -14,12 +14,12 @@ public class task5 {
         System.out.printf("input number: ");
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
+        sc.close();
         for (int i = 0; i < array.length - 1; i++) {
             if(array[i] == num){
                 int temp = array[i];
                 array[i] = array[i+1];
-                array[i+1] = temp;
-                sc.close();
+                array[i+1] = temp;                
             }
         }
         for(int i:array){

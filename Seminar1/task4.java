@@ -7,7 +7,7 @@ public class task4 {
         int [] array = new int[15];
         for(int i = 0; i < array.length; i++){
             array[i] = new Random().nextInt(0,2);
-            System.out.print(array[i]);
+            System.out.print(array[i] + " ");
         }
         int count = 0;
         int Maxcount = 0;

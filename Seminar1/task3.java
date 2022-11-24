@@ -14,7 +14,7 @@ public class task3 {
         System.out.print("Input Name:");
         Scanner iScanner = new Scanner(System.in);
         String name = iScanner.nextLine();
-        int nowTime = LocalTime.of(4,0,0).getHour();
+        int nowTime = LocalTime.now().getHour();
                 
         System.out.println(nowTime);
         if(nowTime >= 5 && nowTime < 12){System.out.printf("Доброе утро, %s", name);}
