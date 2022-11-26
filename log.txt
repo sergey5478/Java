@@ -1,0 +1,16 @@
+нояб. 26, 2022 8:04:06 PM Seminar2.Home2 Logger
+WARNING: Тестовое логирование 1
+нояб. 26, 2022 8:04:06 PM Seminar2.Home2 Logger
+INFO: Тестовое логирование 2
+нояб. 26, 2022 8:04:10 PM Seminar2.Home2 Logger
+WARNING: Тестовое логирование 1
+нояб. 26, 2022 8:04:10 PM Seminar2.Home2 Logger
+INFO: Тестовое логирование 2
+нояб. 26, 2022 8:04:14 PM Seminar2.Home2 Logger
+WARNING: Тестовое логирование 1
+нояб. 26, 2022 8:04:14 PM Seminar2.Home2 Logger
+INFO: Тестовое логирование 2
+нояб. 26, 2022 8:04:14 PM Seminar2.Home2 Logger
+WARNING: Тестовое логирование 1
+нояб. 26, 2022 8:04:14 PM Seminar2.Home2 Logger
+INFO: Тестовое логирование 2
