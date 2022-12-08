@@ -8,7 +8,9 @@ public class Array_IN {
         ArrayList<Integer> list4 = new ArrayList<>(list3);
         System.out.println(list3);
         list3.add(123);
-        
+        System.out.println(list1);
+        System.out.println(list2);
         System.out.println(list3);
+        System.out.println(list4);
     }
 }

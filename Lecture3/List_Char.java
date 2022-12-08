@@ -3,7 +3,7 @@ package Lecture3;
  * Если добавляем List.of, то потом удалить list1.remove(1) неполучится
  */
 import java.util.List;
-import java.util.ArrayList;
+
 
 public class List_Char {
     public static void main(String[] args) {
@@ -16,7 +16,7 @@ public class List_Char {
         // list1.add('d');
 
         System.out.println(list1);
-        list1.remove(1); // java.lang.UnsupportedOperationException
+        // list1.remove(1); // java.lang.UnsupportedOperationException
         List<Character> list2 = List.copyOf(list1);//копирует
         System.out.println(list2);
     }
