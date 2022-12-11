@@ -20,7 +20,7 @@ public class task1 {
         Map<Integer, String> list1 = new HashMap<>();
         String encoding = System.getProperty("console.encoding", "cp866");
         Scanner iScanner = new Scanner(System.in, encoding);
-        for (int i = 0; i < 2; i++) {
+        for (int i = 0; i < 3; i++) {
             System.out.print("Введите паспорт и фамилию: ");
             String s = iScanner.nextLine();
             String [] sMas = s.split(" ");
