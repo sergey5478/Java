@@ -58,8 +58,7 @@ public class Main {
         Scanner iScanner = new Scanner(System.in, encoding);
         System.out.print("Введите цифру, соответствующую необходимому критерию ОЗУ(до 3), Объем SSD(100 до 300):  ");
         Integer s = iScanner.nextInt();
-        iScanner.nextLine();
-        iScanner.close();
+        
         if (s <= 10) {
             List<Notebook> res = new ArrayList<>();
             for (Notebook not : notebooks) {
@@ -85,7 +84,7 @@ public class Main {
         Scanner iScanner = new Scanner(System.in, encoding);
         System.out.println("Введите минимальный ОЗУ(от 1 до 3) и SSD(100 до 300): ");
         String s = iScanner.nextLine();
-        iScanner.nextLine();
+        
         Map<Integer, String> list1 = new HashMap<>();
         String[] sMas = s.split(" ");
         list1.put(Integer.parseInt(sMas[0]), sMas[1]);
